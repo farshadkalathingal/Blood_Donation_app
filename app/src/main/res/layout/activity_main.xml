@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Blood Donor"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        android:textColor="#666666"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="from"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#C41818"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:text="Shad"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  <item name="android:datePickerDialogTheme">@style/MyDatePickerDialogStyle</item>
+        <item name="android:editTextBackground">@style/CustomEditText</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomEditText">
+        <item name="colorAccent">@color/background</item>
+    </style>
+
+    <style name="MyDatePickerDialogStyle" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Progressbar" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:thickness">1dp</item>
+        <item name="android:progressDrawable">@drawable/circle_progress_bar</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RedButtonLightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#000</item>
+    </style>
+
+</resources>

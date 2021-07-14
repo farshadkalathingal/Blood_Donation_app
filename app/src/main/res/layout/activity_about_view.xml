@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".AboutView">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="About"
+        android:textSize="35sp"
+        android:textColor="@color/background"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_border"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/logo1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Donor"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="         Blood Donor, helps consumers find Red Cross blood drives nearby, schedule appointments to donate, and earn rewards from premier retailers after donating."
+        android:textSize="20sp"
+        android:hyphenationFrequency="none"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:textColor="@color/background"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>
