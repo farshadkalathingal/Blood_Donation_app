@@ -7,7 +7,6 @@ Android app for searching blood donors. Users can create account in the app, and
 
 
 **Client:** XML, Java
-
 **Server:** Firebase
 
   
